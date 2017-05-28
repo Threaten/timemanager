@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADA00041EDB2888008FF2BB /* TimeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA00031EDB2888008FF2BB /* TimeManagerTests.swift */; };
+		FADA000F1EDB2888008FF2BB /* TimeManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA000E1EDB2888008FF2BB /* TimeManagerUITests.swift */; };
+		FADAFFEC1EDB2887008FF2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAFFEB1EDB2887008FF2BB /* AppDelegate.swift */; };
+		FADAFFEE1EDB2887008FF2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAFFED1EDB2887008FF2BB /* ViewController.swift */; };
+		FADAFFF11EDB2887008FF2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADAFFEF1EDB2887008FF2BB /* Main.storyboard */; };
+		FADAFFF41EDB2887008FF2BB /* TimeManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FADAFFF21EDB2887008FF2BB /* TimeManager.xcdatamodeld */; };
+		FADAFFF61EDB2887008FF2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADAFFF51EDB2887008FF2BB /* Assets.xcassets */; };
+		FADAFFF91EDB2887008FF2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADAFFF71EDB2887008FF2BB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADA00001EDB2888008FF2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADAFFE01EDB2887008FF2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADAFFE71EDB2887008FF2BB;
+			remoteInfo = TimeManager;
+		};
+		FADA000B1EDB2888008FF2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADAFFE01EDB2887008FF2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADAFFE71EDB2887008FF2BB;
+			remoteInfo = TimeManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADA00031EDB2888008FF2BB /* TimeManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagerTests.swift; sourceTree = "<group>"; };
+		FADA00051EDB2888008FF2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA000A1EDB2888008FF2BB /* TimeManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA000E1EDB2888008FF2BB /* TimeManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagerUITests.swift; sourceTree = "<group>"; };
+		FADA00101EDB2888008FF2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADAFFE81EDB2887008FF2BB /* TimeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADAFFEB1EDB2887008FF2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADAFFED1EDB2887008FF2BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADAFFF01EDB2887008FF2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADAFFF31EDB2887008FF2BB /* TimeManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeManager.xcdatamodel; sourceTree = "<group>"; };
+		FADAFFF51EDB2887008FF2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADAFFF81EDB2887008FF2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADAFFFA1EDB2887008FF2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADAFFFF1EDB2888008FF2BB /* TimeManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADA00071EDB2888008FF2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAFFE51EDB2887008FF2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAFFFC1EDB2888008FF2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADA00021EDB2888008FF2BB /* TimeManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA00031EDB2888008FF2BB /* TimeManagerTests.swift */,
+				FADA00051EDB2888008FF2BB /* Info.plist */,
+			);
+			path = TimeManagerTests;
+			sourceTree = "<group>";
+		};
+		FADA000D1EDB2888008FF2BB /* TimeManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA000E1EDB2888008FF2BB /* TimeManagerUITests.swift */,
+				FADA00101EDB2888008FF2BB /* Info.plist */,
+			);
+			path = TimeManagerUITests;
+			sourceTree = "<group>";
+		};
+		FADAFFDF1EDB2887008FF2BB = {
+			isa = PBXGroup;
+			children = (
+				FADAFFEA1EDB2887008FF2BB /* TimeManager */,
+				FADA00021EDB2888008FF2BB /* TimeManagerTests */,
+				FADA000D1EDB2888008FF2BB /* TimeManagerUITests */,
+				FADAFFE91EDB2887008FF2BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADAFFE91EDB2887008FF2BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADAFFE81EDB2887008FF2BB /* TimeManager.app */,
+				FADAFFFF1EDB2888008FF2BB /* TimeManagerTests.xctest */,
+				FADA000A1EDB2888008FF2BB /* TimeManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADAFFEA1EDB2887008FF2BB /* TimeManager */ = {
+			isa = PBXGroup;
+			children = (
+				FADAFFEB1EDB2887008FF2BB /* AppDelegate.swift */,
+				FADAFFED1EDB2887008FF2BB /* ViewController.swift */,
+				FADAFFEF1EDB2887008FF2BB /* Main.storyboard */,
+				FADAFFF51EDB2887008FF2BB /* Assets.xcassets */,
+				FADAFFF71EDB2887008FF2BB /* LaunchScreen.storyboard */,
+				FADAFFFA1EDB2887008FF2BB /* Info.plist */,
+				FADAFFF21EDB2887008FF2BB /* TimeManager.xcdatamodeld */,
+			);
+			path = TimeManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADA00091EDB2888008FF2BB /* TimeManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA00191EDB2888008FF2BB /* Build configuration list for PBXNativeTarget "TimeManagerUITests" */;
+			buildPhases = (
+				FADA00061EDB2888008FF2BB /* Sources */,
+				FADA00071EDB2888008FF2BB /* Frameworks */,
+				FADA00081EDB2888008FF2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA000C1EDB2888008FF2BB /* PBXTargetDependency */,
+			);
+			name = TimeManagerUITests;
+			productName = TimeManagerUITests;
+			productReference = FADA000A1EDB2888008FF2BB /* TimeManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FADAFFE71EDB2887008FF2BB /* TimeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA00131EDB2888008FF2BB /* Build configuration list for PBXNativeTarget "TimeManager" */;
+			buildPhases = (
+				FADAFFE41EDB2887008FF2BB /* Sources */,
+				FADAFFE51EDB2887008FF2BB /* Frameworks */,
+				FADAFFE61EDB2887008FF2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeManager;
+			productName = TimeManager;
+			productReference = FADAFFE81EDB2887008FF2BB /* TimeManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADAFFFE1EDB2888008FF2BB /* TimeManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA00161EDB2888008FF2BB /* Build configuration list for PBXNativeTarget "TimeManagerTests" */;
+			buildPhases = (
+				FADAFFFB1EDB2888008FF2BB /* Sources */,
+				FADAFFFC1EDB2888008FF2BB /* Frameworks */,
+				FADAFFFD1EDB2888008FF2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA00011EDB2888008FF2BB /* PBXTargetDependency */,
+			);
+			name = TimeManagerTests;
+			productName = TimeManagerTests;
+			productReference = FADAFFFF1EDB2888008FF2BB /* TimeManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADAFFE01EDB2887008FF2BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trong Nghia Hoang";
+				TargetAttributes = {
+					FADA00091EDB2888008FF2BB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 82EA9RETJE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADAFFE71EDB2887008FF2BB;
+					};
+					FADAFFE71EDB2887008FF2BB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 82EA9RETJE;
+						ProvisioningStyle = Automatic;
+					};
+					FADAFFFE1EDB2888008FF2BB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 82EA9RETJE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADAFFE71EDB2887008FF2BB;
+					};
+				};
+			};
+			buildConfigurationList = FADAFFE31EDB2887008FF2BB /* Build configuration list for PBXProject "TimeManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADAFFDF1EDB2887008FF2BB;
+			productRefGroup = FADAFFE91EDB2887008FF2BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADAFFE71EDB2887008FF2BB /* TimeManager */,
+				FADAFFFE1EDB2888008FF2BB /* TimeManagerTests */,
+				FADA00091EDB2888008FF2BB /* TimeManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADA00081EDB2888008FF2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAFFE61EDB2887008FF2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADAFFF91EDB2887008FF2BB /* LaunchScreen.storyboard in Resources */,
+				FADAFFF61EDB2887008FF2BB /* Assets.xcassets in Resources */,
+				FADAFFF11EDB2887008FF2BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAFFFD1EDB2888008FF2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADA00061EDB2888008FF2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA000F1EDB2888008FF2BB /* TimeManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAFFE41EDB2887008FF2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADAFFEE1EDB2887008FF2BB /* ViewController.swift in Sources */,
+				FADAFFEC1EDB2887008FF2BB /* AppDelegate.swift in Sources */,
+				FADAFFF41EDB2887008FF2BB /* TimeManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAFFFB1EDB2888008FF2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA00041EDB2888008FF2BB /* TimeManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADA00011EDB2888008FF2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADAFFE71EDB2887008FF2BB /* TimeManager */;
+			targetProxy = FADA00001EDB2888008FF2BB /* PBXContainerItemProxy */;
+		};
+		FADA000C1EDB2888008FF2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADAFFE71EDB2887008FF2BB /* TimeManager */;
+			targetProxy = FADA000B1EDB2888008FF2BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADAFFEF1EDB2887008FF2BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADAFFF01EDB2887008FF2BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADAFFF71EDB2887008FF2BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADAFFF81EDB2887008FF2BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADA00111EDB2888008FF2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADA00121EDB2888008FF2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADA00141EDB2888008FF2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82EA9RETJE;
+				INFOPLIST_FILE = TimeManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Threaten.TimeManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FADA00151EDB2888008FF2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82EA9RETJE;
+				INFOPLIST_FILE = TimeManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Threaten.TimeManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FADA00171EDB2888008FF2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82EA9RETJE;
+				INFOPLIST_FILE = TimeManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Threaten.TimeManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeManager.app/TimeManager";
+			};
+			name = Debug;
+		};
+		FADA00181EDB2888008FF2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82EA9RETJE;
+				INFOPLIST_FILE = TimeManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Threaten.TimeManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeManager.app/TimeManager";
+			};
+			name = Release;
+		};
+		FADA001A1EDB2888008FF2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82EA9RETJE;
+				INFOPLIST_FILE = TimeManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Threaten.TimeManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimeManager;
+			};
+			name = Debug;
+		};
+		FADA001B1EDB2888008FF2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82EA9RETJE;
+				INFOPLIST_FILE = TimeManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Threaten.TimeManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimeManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADA00131EDB2888008FF2BB /* Build configuration list for PBXNativeTarget "TimeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA00141EDB2888008FF2BB /* Debug */,
+				FADA00151EDB2888008FF2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADA00161EDB2888008FF2BB /* Build configuration list for PBXNativeTarget "TimeManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA00171EDB2888008FF2BB /* Debug */,
+				FADA00181EDB2888008FF2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADA00191EDB2888008FF2BB /* Build configuration list for PBXNativeTarget "TimeManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA001A1EDB2888008FF2BB /* Debug */,
+				FADA001B1EDB2888008FF2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADAFFE31EDB2887008FF2BB /* Build configuration list for PBXProject "TimeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA00111EDB2888008FF2BB /* Debug */,
+				FADA00121EDB2888008FF2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FADAFFF21EDB2887008FF2BB /* TimeManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FADAFFF31EDB2887008FF2BB /* TimeManager.xcdatamodel */,
+			);
+			currentVersion = FADAFFF31EDB2887008FF2BB /* TimeManager.xcdatamodel */;
+			path = TimeManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FADAFFE01EDB2887008FF2BB /* Project object */;
+}
