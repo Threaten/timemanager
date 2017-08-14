@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName=".Activity" syncable="YES">
+        <attribute name="activityDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="to" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="toActivity" inverseEntity="Day" syncable="YES"/>
+    </entity>
+    <entity name="Day" representedClassName=".Day" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="toActivity" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="toDay" inverseEntity="Activity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-81" positionY="-103" width="128" height="210"/>
+        <element name="Day" positionX="187" positionY="-18" width="128" height="75"/>
+    </elements>
 </model>

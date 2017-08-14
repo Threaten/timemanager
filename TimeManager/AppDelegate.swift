@@ -16,7 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //Navigation Bar Background Image
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "navigation")!.resizableImage(withCapInsets: UIEdgeInsetsMake(0, 0, 0, 0), resizingMode: .stretch), for: .default)
+        UINavigationBar.appearance().isTranslucent = false
+        //Navigation Bar custom font
+        let attrs = [
+            NSForegroundColorAttributeName: UIColor.white,
+            NSFontAttributeName: UIFont(name: "AvenirNext-DemiBold", size: 17)!
+        ]
+        UINavigationBar.appearance().titleTextAttributes = attrs
+
+        
+        let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        print(urls[urls.count-1] as URL)
+        
         return true
     }
 
@@ -88,6 +101,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
+
+let ad = UIApplication.shared.delegate as! AppDelegate
+let context = ad.persistentContainer.viewContext
+
 
